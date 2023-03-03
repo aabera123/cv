@@ -1,0 +1,170 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Hero section styles */
+  section#hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #fff;
+    color: #1A1A1A;
+  }
+  
+  /* Features section styles */
+  section#features {
+    background-color: #fff;
+    padding: 50px 20px;
+  }
+  
+  #features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feature-item img {
+    width: 100%;
+  }
+  
+  .feature-item h3 {
+    margin-top: 20px;
+  }
+  
+  /* Testimonials section styles */
+  section#testimonials {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+  }
+  
+  #testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-item {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .testimonial-item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  /* Download section styles */
+  section#download {
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  #download h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .download-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .download-item img {
+    width: 150px;
+    margin: 0 10px;
+  }
+  
+  .qr-code {
+    text-align: center;
+  }
+  
+  .qr-code img {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #1A1A1A;
+    text-decoration: none;
+  }
+  header{
+    background-color: aqua;
+    font: 100;
+  }
